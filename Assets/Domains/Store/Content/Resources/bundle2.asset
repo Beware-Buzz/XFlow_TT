@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a1e7a69348f8e544a9cd8ce9e8254df, type: 3}
+  m_Name: bundle2
+  m_EditorClassIdentifier: 
+  Text: "\u0416\u0438\u0437\u043D\u0438 \u0437\u0430 \u0437\u043E\u043B\u043E\u0442\u043E"
+  Cost:
+  - {fileID: 11400000, guid: 4d73ef40cad042e4a8a892a8ffe27250, type: 2}
+  Prize:
+  - {fileID: 11400000, guid: 1efa834d2ac00db43bab44a66ca2ed7d, type: 2}

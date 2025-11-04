@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513ba710341e42edbc5c81b334d3ef4d, type: 3}
+  m_Name: CheatMappingHolder
+  m_EditorClassIdentifier: 
+  Mapping:
+  - RewardAction:
+      rid: 825525519751577672
+    RewardDisplayer:
+      rid: 825525519751577673
+  - RewardAction:
+      rid: 825525519751577674
+    RewardDisplayer:
+      rid: 825525519751577675
+  - RewardAction:
+      rid: 825525519751577676
+    RewardDisplayer:
+      rid: 825525519751577677
+  - RewardAction:
+      rid: 825525519751577678
+    RewardDisplayer:
+      rid: 825525519751577679
+  references:
+    version: 2
+    RefIds:
+    - rid: 825525519751577672
+      type: {class: GoldRewardActionAdd, ns: Gold, asm: Gold}
+      data:
+        _amount:
+          Amount: 5
+    - rid: 825525519751577673
+      type: {class: GoldRewardDisplayer, ns: Gold, asm: Gold}
+      data: 
+    - rid: 825525519751577674
+      type: {class: HealthRewardActionAdd, ns: Health, asm: Health}
+      data:
+        _amount:
+          Amount: 5
+    - rid: 825525519751577675
+      type: {class: HealthRewardDisplayer, ns: Health, asm: Health}
+      data: 
+    - rid: 825525519751577676
+      type: {class: LocationRewardActionSetDefault, ns: Location, asm: Location}
+      data: 
+    - rid: 825525519751577677
+      type: {class: LocationRewardDisplayer, ns: Location, asm: Location}
+      data: 
+    - rid: 825525519751577678
+      type: {class: VipRewardActionAdd, ns: Vip, asm: Vip}
+      data:
+        _amount:
+          durationString: 00:00:10
+    - rid: 825525519751577679
+      type: {class: VipRewardDisplayer, ns: Vip, asm: Vip}
+      data: 
